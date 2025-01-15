@@ -8,12 +8,14 @@ import json
 import plotly.graph_objects as go
 
 st.set_page_config(
-    page_title="My Streamlit App",
+    page_title="서울 주요상권 인구 및 상권정보 ",
     page_icon=":tada:",
     layout="wide",
 )
 
 API_KEY = "77576c4366676b77313033484a544654"
+
+st.title("서울 주요상권 인구 및 상권정보")
 
 tab1, tab4, tab7, tab10 = st.tabs(["광화문·덕수궁", "여의도", "DMC", "용리단길"])
 
